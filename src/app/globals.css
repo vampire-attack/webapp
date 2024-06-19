@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #0B0B0B;
+}
+
+header {
+  background: #0B0B0B;
+}
+
+.bg-light-red {
+  background: rgba(239, 29, 30, 0.2);
+}
+
