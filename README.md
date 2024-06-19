@@ -4,29 +4,6 @@ Welcome to the **Vampire Attack Web App** repository. This web application empow
 
 ## Overview
 
-### `vampireattack.com`
-
-This is our landing page, providing an overview of our mission and guiding users on how to participate in the Vampire Attack initiative.
-
-#### **Hero Action**
-- **Migrate Liquidity**
-
-#### **What We Do**
-We are targeting and retaliating against the top DeFi protocols that have failed their users. Our targets include:
-- **Uniswap**
-- **Sushiswap**
-- **1inch**
-- **Curve**
-
-#### **Why We Do It**
-These protocols have betrayed their users, failing to deliver on their promises. This project is about empowering users to take action and claim what is rightfully theirs.
-
-#### **When**
-The time is now.
-
-#### **How to Participate**
-- **Migrate Liquidity**: Join the movement and transfer your assets away from these untrustworthy protocols.
-
 ### `app.vampireattack.com`
 
 Our web application is where the real action happens. Here, users can actively participate in the Vampire Attack initiative.
@@ -44,4 +21,17 @@ To get started with the Vampire Attack Web App, follow the instructions below:
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/vampire-attack/webapp.git
- 2. **Install Dependencies
+   ```
+ 2. **Install Dependencies and  Run the Application
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    # or
+    pnpm dev
+    # or
+    bun dev
+    ```
+
+## Contributing
+We welcome contributions from the community. To contribute, please fork the repository, create a new branch, and submit a pull request.
