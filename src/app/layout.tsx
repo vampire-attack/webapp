@@ -5,6 +5,7 @@ import WagmiProviderComp from "@/lib/wagmi-provider";
 import { headers } from "next/headers";
 import { cookieToInitialState } from "wagmi";
 import { config } from "@/lib/config";
+import { createTheme, DirectionProvider, MantineProvider } from "@mantine/core";
 
 
 
@@ -19,15 +20,21 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const initialState = cookieToInitialState(config, headers().get("cookie"));
+  const theme = createTheme({
+    /** Put your mantine theme override here */
+
+  });
 
   return (
     <html lang="en">
       <body >
-        
-          <WagmiProviderComp initialState={initialState}>
-            {children}
-          </WagmiProviderComp>
-      
+        <DirectionProvider>
+          <MantineProvider theme={theme}>
+            <WagmiProviderComp initialState={initialState}>
+              {children}
+            </WagmiProviderComp>
+          </MantineProvider>
+        </DirectionProvider>
       </body>
     </html>
   );
