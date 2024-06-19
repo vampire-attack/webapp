@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Vampire Attack Web App
+
+Welcome to the **Vampire Attack Web App** repository. This web application empowers users to migrate, swap, and manage their liquidity from top DeFi protocols that have failed to meet their expectations.
+
+## Overview
+
+### `vampireattack.com`
+
+This is our landing page, providing an overview of our mission and guiding users on how to participate in the Vampire Attack initiative.
+
+#### **Hero Action**
+- **Migrate Liquidity**
+
+#### **What We Do**
+We are targeting and retaliating against the top DeFi protocols that have failed their users. Our targets include:
+- **Uniswap**
+- **Sushiswap**
+- **1inch**
+- **Curve**
+
+#### **Why We Do It**
+These protocols have betrayed their users, failing to deliver on their promises. This project is about empowering users to take action and claim what is rightfully theirs.
+
+#### **When**
+The time is now.
+
+#### **How to Participate**
+- **Migrate Liquidity**: Join the movement and transfer your assets away from these untrustworthy protocols.
+
+### `app.vampireattack.com`
+
+Our web application is where the real action happens. Here, users can actively participate in the Vampire Attack initiative.
+
+#### **Features**
+- **Migrate**: Select the source protocol and migrate your liquidity.
+- **Swap**: Exchange assets seamlessly, similar to Uniswap.
+- **Rewards**: View and claim rewards from your migrations and activities.
+- **Manage Liquidity**: Keep track of and manage your migrated assets.
 
 ## Getting Started
 
-First, run the development server:
+To get started with the Vampire Attack Web App, follow the instructions below:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/vampire-attack/webapp.git
+ 2. **Install Dependencies
