@@ -1,19 +1,20 @@
 "use client";
- 
+
 import React, { ReactNode } from "react";
 import { createWeb3Modal } from "@web3modal/wagmi/react";
+import { RainbowKitProvider, darkTheme } from "@rainbow-me/rainbowkit";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { State, WagmiProvider } from "wagmi";
 import { config, projectId } from "./config";
- 
+
 if (!projectId) throw new Error("Project ID is not defined");
- 
+
 createWeb3Modal({
   wagmiConfig: config,
   projectId,
   enableAnalytics: true, // Optional
 });
- 
+
 export const WagmiProviderComp = ({
   children,
   initialState,
@@ -31,10 +32,22 @@ export const WagmiProviderComp = ({
         },
       })
   );
- 
+
   return (
     <WagmiProvider config={config} initialState={initialState}>
-      <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
+      <QueryClientProvider client={queryClient}>
+        <RainbowKitProvider
+          theme={darkTheme({
+            accentColor: "#0E76FD",
+            accentColorForeground: "white",
+            borderRadius: "large",
+            fontStack: "system",
+            overlayBlur: "small",
+          })}
+        >
+          {children}
+        </RainbowKitProvider>
+      </QueryClientProvider>
     </WagmiProvider>
   );
 };
