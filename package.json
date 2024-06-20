@@ -44,8 +44,8 @@
     "react": "^18",
     "react-dom": "^18",
     "recharts": "^2.12.7",
-    "viem": "2.x",
-    "wagmi": "^2.10.3"
+    "viem": "^2.13.8",
+    "wagmi": "^2.10.0"
   },
   "devDependencies": {
     "@types/graphql": "^14.5.0",
