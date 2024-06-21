@@ -1,0 +1,14 @@
+.timer-grid {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    align-items: center;
+
+    gap: 0.5rem;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
