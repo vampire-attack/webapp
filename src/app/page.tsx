@@ -13,7 +13,7 @@ import Migrate from "./(pages)/migrate/page";
 export default function Home() {
   return (
     <main className={montserrat.className}>
-      <Migrate />
+      <Farms />
     </main>
   );
 }

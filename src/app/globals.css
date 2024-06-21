@@ -200,3 +200,7 @@ h6 {
 .text-d4 {
   color: #D4D4D4
 }
+
+table tbody tr:last-child{
+  border:0
+}

@@ -23,7 +23,7 @@ export default function NavBar() {
       <nav className="px-4 lg:px-6 py-2.5 mt-2">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-2xl">
           <div className="flex items-center lg:order-2">
-            <ConnectButton />
+            <ConnectButton label="Connect"/>
             <button
               data-collapse-toggle="mobile-menu-2"
               type="button"
